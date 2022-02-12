@@ -1,1 +1,1 @@
-# minder.github.io
+# minder
