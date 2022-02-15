@@ -35,7 +35,8 @@ SqlFile: IWritableSqlFile,IReadableSqlFile
 ```
 
 ### Interface Segregation Principle (ISP)
-"That clients should not be forced to implement interfaces they don't use. Instead of one fat interface, many small interfaces are preferred based on groups of methods, each one serving one submodule."	
+- That clients should not be forced to implement interfaces they don't use. Instead of one fat interface, many small interfaces are preferred based on groups of methods, each one serving one submodule.
+- An interface should be more closely related to the code that uses it than code that implements it.
 
 ### Dependency Inversion Principle (DIP)
 "High-level modules/classes should not depend on low-level modules/classes. Both should depend upon abstractions. Secondly, abstractions should not depend upon details. Details should depend upon abstractions".
