@@ -97,8 +97,4 @@ onMounted(() => {
 </template>
 ```
 
-
-
-
-
 Reference: https://vuejs.org/guide/essentials/application.html
