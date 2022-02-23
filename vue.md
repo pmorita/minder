@@ -96,3 +96,9 @@ onMounted(() => {
   <button @click="increment">Count is: {{ count }}</button>
 </template>
 ```
+
+
+
+
+
+Reference: https://vuejs.org/guide/essentials/application.html
