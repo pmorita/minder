@@ -41,3 +41,6 @@ Is composed by:
 - Modules: allows us to divide our store into modules. Each module can contain its own state, mutations, actions, getters, and even nested modules
     - Namespaced (default false)
     - Submodules
+
+
+Reference: https://vuex.vuejs.org/
