@@ -36,6 +36,8 @@ Is composed by:
     store.commit('increment')
     ```
 - Actions: similar to mutations, the differences being that:
-  - Instead of mutating the state, actions commit mutations.
-  - Actions can contain arbitrary asynchronous operations.
+    - Instead of mutating the state, actions commit mutations.
+    - Actions can contain arbitrary asynchronous operations.
 - Modules: allows us to divide our store into modules. Each module can contain its own state, mutations, actions, getters, and even nested modules
+    - Namespaced (default false)
+    - Submodules
